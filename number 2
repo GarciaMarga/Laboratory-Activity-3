@@ -1,4 +1,4 @@
-public class App {
+public class Methods_demo {
     public static String addStars(String str) {
         if (str.length() <= 1) {
             return str;
@@ -8,6 +8,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(addStars("marga"));
+        System.out.println(addStars("Ice Cream"));
     }
 }
